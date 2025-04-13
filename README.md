@@ -1,5 +1,5 @@
 
-# 🚀 My Developer Portfolio  
+# 🚀 My Developer Portfolio
 
 🌟 **A sleek, modern, and fully responsive portfolio website showcasing my skills, projects, and experience.**  
 Built with a clean UI and smooth animations to leave a lasting impression!  
