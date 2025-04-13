@@ -1135,3 +1135,159 @@ Start FunFacts CSS
 /* ==========================================================================
 11. End Footer Area
 ========================================================================== */
+
+.reviews-carousel .review-item {
+    background: #000;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: all 0.3s ease;
+    min-height: 400px; /* Base height for uniformity */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.reviews-carousel .review-item:hover {
+    transform: translateY(-5px);
+   
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+.review-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.review-photo {
+    margin-bottom: 15px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.review-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 2px solid #00C4FF;
+    display: block;
+}
+
+.review-content p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.review-content h4 {
+    color: #00C4FF;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.review-content small {
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* Owl Carousel Styling */
+.reviews-carousel {
+    position: relative; /* Support dot positioning */
+    padding: 0 20px; /* Reduced padding since arrows are removed */
+}
+
+.reviews-carousel .owl-dots {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.reviews-carousel .owl-dot {
+    background: #aaa;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.reviews-carousel .owl-dot.active {
+    background: #00C4FF;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+    .reviews-carousel .review-item {
+        min-height: 360px; /* Shorter cards for tablets */
+        padding: 15px;
+		
+    }
+    .review-photo {
+        width: 80px;
+        height: 80px;
+    }
+    .review-content p {
+        font-size: 14px;
+    }
+    .review-content h4 {
+        font-size: 16px;
+    }
+    .review-content small {
+        font-size: 12px;
+    }
+    .reviews-carousel {
+        padding: 0 15px;
+    }
+    .reviews-carousel .owl-dots {
+        margin-top: 15px;
+    }
+    .reviews-carousel .owl-dot {
+        width: 9px;
+        height: 9px;
+        margin: 0 4px;
+    }
+}
+
+@media (max-width: 767px) {
+    .reviews-carousel .review-item {
+        min-height: 320px; /* Smaller cards for mobile */
+        padding: 10px;
+        margin: 5px;
+    }
+    .review-photo {
+        width: 60px;
+        height: 60px;
+    }
+    .review-content p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    .review-content h4 {
+        font-size: 14px;
+    }
+    .review-content small {
+        font-size: 11px;
+    }
+    .reviews-carousel {
+        padding: 0 10px;
+    }
+    .reviews-carousel .owl-dots {
+        margin-top: 10px;
+    }
+    .reviews-carousel .owl-dot {
+        width: 8px;
+        height: 8px;
+        margin: 0 3px;
+    }
+}
