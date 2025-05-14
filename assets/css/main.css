@@ -1291,3 +1291,113 @@ Start FunFacts CSS
         margin: 0 3px;
     }
 }
+
+
+/* ==========================================================================
+07. Start Experience Area
+========================================================================== */
+.experience-item {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 30px 25px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.experience-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+.experience-item h3 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.experience-item h4 {
+    color: #00C4FF;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.experience-item p {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.experience-item p small {
+    color: #aaa;
+    font-size: 13px;
+}
+
+.experience-item p small .fa {
+    margin-right: 5px;
+}
+
+.experience-item ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.experience-item ul li {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    list-style-type: disc;
+}
+
+@media only screen and (max-width: 991px) {
+    .experience-item {
+        padding: 20px;
+    }
+    .experience-item h3 {
+        font-size: 20px;
+    }
+    .experience-item h4 {
+        font-size: 16px;
+    }
+    .experience-item p {
+        font-size: 13px;
+    }
+    .experience-item ul li {
+        font-size: 13px;
+        line-height: 22px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .experience-item {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    .experience-item h3 {
+        font-size: 18px;
+    }
+    .experience-item h4 {
+        font-size: 14px;
+    }
+    .experience-item p {
+        font-size: 12px;
+    }
+    .experience-item p small {
+        font-size: 12px;
+    }
+    .experience-item ul li {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+/* ==========================================================================
+07. End Experience Area
+========================================================================== */
