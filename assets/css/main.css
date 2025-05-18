@@ -550,6 +550,45 @@ a.back-to-top:hover, a.back-to-top:focus{
 03. End Banner Area
 ========================================================================== */
 
+.hero-buttons {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon-btn {
+  width: 60px;
+  height: 60px;
+  background-color: #343a40;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 24px;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.icon-btn:hover {
+  background-color: #00C4FF;
+  transform: scale(1.1);
+}
+
+.icon-wrapper p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #343a40;
+}
+
 
 /* ==========================================================================
 04. Start About Area
@@ -1132,6 +1171,34 @@ Start FunFacts CSS
 	font-size: 15px;
 	color: #fff;
 }
+
+.footer-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: #000;
+}
+
+.icon-btn {
+  width: 50px;
+  height: 50px;
+  background-color: #343a40;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.icon-btn:hover {
+  background-color: #00C4FF;
+  transform: scale(1.1);
+}
+
 /* ==========================================================================
 11. End Footer Area
 ========================================================================== */
