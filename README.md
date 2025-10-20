@@ -2,6 +2,8 @@
 
 Welcome to my personal portfolio website, showcasing my skills, experience, and client feedback as a Full-Stack Developer. This single-page portfolio, built with HTML, CSS, and JavaScript, highlights my freelance and personal projects, including a **Real-Time Chat Application**, **JournalismX**, **Netflix Clone**, **E-commerce App**, and **Amazon Frontend**. The site features a responsive design, animated sections, and a client reviews carousel powered by Owl Carousel.
 
+##Live https://classy-crisp-bc7dac.netlify.app/
+
 ## Table of Contents
 - [Features](#features)
 - [Technologies Used](#technologies-used)
